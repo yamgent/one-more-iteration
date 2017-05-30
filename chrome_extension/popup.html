@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>One More Iteration</title>
+        <!-- JavaScript and HTML must be separated. See:
+        https://developer.chrome.com/extensions/contentSecurityPolicy
+        -->
+        <script src="popup.js"></script>
+    </head>
+    <body>
+        <div id="popup" style="min-width:300px;">
+            <div id="error-message" style="font-size:150%;"></div>
+            <br>
+            <iframe src="_blank" id="external-web-page" width="0px" height="0px" style="border:1px green;"></iframe>
+        </div>
+    </body>
+</html>
